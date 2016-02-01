@@ -1,24 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 body, html {
-  width: 100%;
-  height: 100%;
-  background: #e3a136;
-  overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background: #e3a136;
 }
 
-.top {
-  width: 100%;
-  height: 40%;
-  background: #195159;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+#content {
+	width: 100%;
+	height: 2000px;
+	background: #e3a136;
+	position: relative;
+	z-index: 1;
 }
 
-.splash {
-  background: #195159;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  left: 0px;
-  top: 20%;
+#header {
+	background: #195159;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	top: 0;
+}
+
+#header img {
+	width: 100%;
+	padding-top: 400;
+	padding-bottom: 0px;
+}
+
+#content {
+	
+}
+
+#content * {
+	display: none;
 }
